@@ -1,0 +1,118 @@
+//pagination
+
+.pagination , .page-numbers {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        li{
+            position: relative;
+            display: inline-block;
+            margin: 0px 8px;
+            &:last-child{
+                margin-bottom: unset!important;
+            }
+            a,  span {
+                display: block;
+                width: 40px;
+                height: 40px;
+                background: var(--background-color-two);
+                font-size: 14px;
+                font-weight: 700;
+                font-family: var(--monst-family-two);
+                line-height: 40px;
+                color: var(--text-color);
+                text-align: center;
+                border-radius: 50%;
+                margin: 0px 3px;
+                position: relative;
+                -webkit-transition: 0.5s ease-in-out;
+                transition: 0.5s ease-in-out;
+                -ms-transition: 0.5s ease-in-out;
+                -moz-transition: 0.5s ease-in-out;
+                -o-transition: 0.5s ease-in-out;
+                i{
+                    font-size: 21px;
+                    color: var(--primary-color-one);
+                    font-weight: 400;
+                    font-family: "FontAwesome";
+                    line-height: 40px;    
+                    position: relative;
+                    top: 1px;
+                }
+                &.nav-next{
+                    i{
+                        left: 1px;
+                    }
+                }
+                &.nav-previous{
+                    i{
+                        right: 1px;
+                    }
+                }
+            }
+            &.active{
+                a{
+                    background: var(--primary-color-two);
+                    color: #fff;
+                    i{
+                        color: #fff;
+                    }
+                }
+            }
+            &.current {
+                background: var(--primary-color-two);
+                color: #fff;
+                i{
+                    color: #fff;
+                }
+            }
+            span{
+                &.current {
+                background: var(--primary-color-two);
+                color: #fff;
+                i{
+                    color: #fff;
+                }
+            }
+            }
+        }
+    }
+
+     .page-links {
+        position: relative;
+        width: 100%;
+        padding: 0px;
+        a,  span {
+            display: inline-block;
+            margin-left: 10px;
+            width: 40px;
+            height: 40px;
+            background: var(--background-color-two);
+            font-size: 14px;
+            font-weight: 700;
+            font-family: var(--monst-family-two);
+            line-height: 40px;
+            color: var(--text-color);
+            text-align: center;
+            border-radius: 50%;
+            margin: 0px 3px;
+            position: relative;
+            -webkit-transition: 0.5s ease-in-out;
+            transition: 0.5s ease-in-out;
+            -ms-transition: 0.5s ease-in-out;
+            -moz-transition: 0.5s ease-in-out;
+            -o-transition: 0.5s ease-in-out;
+            &.current {
+                background: var(--primary-color-two);
+                color: #fff;
+                i{
+                    color: #fff;
+                }
+            }
+            
+        }
+     }

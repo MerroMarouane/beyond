@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+@function unicodertl($str){
+  @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"");
+}
+
+
+body.rtl ,
+body.rtl_enable  {
+    direction: rtl;
+    font-family: var(--monst-family-two);
+    font-size: 16px;
+    color: var(--text-color-dark);
+    font-weight: 400;
+    line-height: 28px;
+    // unwanted
+    .nav-link{
+        padding: 0px;
+    }
+    .dropdown-toggle::after{
+        display: none;
+    }
+    .elementor-widget-wp-widget-search{
+        .simple_search{
+            form{
+                input{
+                    padding: 1.25rem 1.25rem!important;
+                }
+            }
+        }
+    }
+    input[type="submit"], button[type="submit"], body .um-button{
+        line-height: normal;
+        text-align: center;
+    }
+    .simple_search{
+        form{
+            input{
+                padding: 15px 1.25rem;
+            }
+           button[type="submit"]{
+            right: unset;
+            left: 5px;
+           }
+        }
+    }
+    ul{
+        padding-left: unset;
+        padding-right: 20px;
+    }
+    select { 
+         background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctitle%3Edown_key%3C/title%3E%3Cpath d='M12.72,15.78a.75.75,0,0,1-.53.22h-.38a.77.77,0,0,1-.53-.22L6.15,10.64a.5.5,0,0,1,0-.71l.71-.71a.49.49,0,0,1,.7,0L12,13.67l4.44-4.45a.5.5,0,0,1,.71,0l.7.71a.5.5,0,0,1,0,.71Z'/%3E%3C/svg%3E") no-repeat left 0.75rem center/18px 20px;
+    }
+    table caption{
+        text-align: right;
+    }
+    // owu carousel
+    .owl-carousel , .woocommerce-product-gallery{
+        direction: ltr;
+    }
+
+    .slick-list{
+        direction: ltr;
+    }
+
+    // mobile menu
+
+    .mobile_header_panel.mobile_header_hidden, .mobile_header_panel.mobile_header_hidden_two, .mobile_header_panel_two.mobile_header_hidden, .mobile_header_panel_two.mobile_header_hidden_two{
+        visibility: hidden;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        .navbar-backdrop{
+            visibility: hidden;
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+        }
+    }
+
+    .mobile_header_panel , .mobile_header_panel_two {
+        .group_button {
+            a{
+                &:first-child{
+                    margin-right: unset!important;
+                    margin-left: 15px!important;
+                }
+               
+            }
+        }
+        .get_in_touch {
+            a{
+                i{
+                    margin-right: unset;
+                    margin-left: 6px;
+                }
+            }
+        }
+    }   
+
+
+    // common
+    h1 a, h1, h2 a, h2, h3 a, h3, h4 a, h4, h5 a, h5, h6 a, h6{
+        font-weight: 700;
+    }
+    .wp-block-quote, blockquote{
+        border-right: 4px solid var(--border-color-four);
+        border-left: unset;
+    }
+    .block_qoute.one .authour_name{
+        padding-left: unset;
+        padding-right: 22px;
+    }
+    .fun_box_one{
+        .content_box{
+            margin-right: 1.5rem;
+            margin-left:unset;
+        }
+    }
+
+    .price_style.one .features ul li svg{
+        margin-right: unset;
+        margin-left:  0.5rem;
+    }
+    .newsteller .item_scubscribe .input_group form input[type="email"]{
+        text-align: right;
+        padding-left: 1rem!important;
+        padding-right: 2.5rem!important;
+    }
+    .newsteller .item_scubscribe .input_group form p{
+        i{
+            right: 12px;
+            left: unset;
+        }
+    }
+    .newsteller.style_one .item_scubscribe .input_group form input[type="submit"]{
+        margin-right: unset;
+        margin: 0px 10px 0px  0px;
+    }
+
+    .card_style.one .content_box .content_left{
+        float: right;
+        text-align: right;
+    }
+    .card_style.one .content_box .btn_content{
+        float: left;
+    }
+
+    .icon_simple_box.one .icon_bx{
+        margin-left: 15px;
+        margin-right: unset;
+    }
+
+    .process_box.two .steps_no{
+        margin-right: unset;
+        margin-left: 25px;
+    }
+    input, input[type="text"], input[type="email"], input[type="number"], textarea, select, .wp-block-search__input, .um .um-form input[type=text], .um .um-form input[type=search], .um .um-form input[type=tel], .um .um-form input[type=number], .um .um-form input[type=password], .um .um-form textarea{
+        text-align: right;
+        margin-bottom: 15px; 
+        padding: 0.8rem 1rem!important;   
+    }
+
+    .contact_form_shortcode form .wpcf7-checkbox span.wpcf7-list-item, .contact_form_shortcode form .wpcf7-radio span.wpcf7-list-item{
+        text-align: right;
+        float: right;
+        padding-right: 0;
+        padding-left: 10px;
+    }
+     form .wpcf7-checkbox span.wpcf7-list-item label,  form .wpcf7-radio span.wpcf7-list-item label{
+        margin-bottom: 15px!important;
+        padding-right: 15px!important;
+        position: relative;
+        input{
+            position: absolute;
+            margin: 0px;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+    }
+    .content_boxed.one .image{
+        right: unset;
+        left: 0;
+    }
+
+    .single_banner_v2.one .banner_box_in .override_custom_form .um-form form .um-row div .um-field-area .um-field-icon{
+        left: unset;
+        right: 15px;
+    }
+    .single_banner_v2.one .banner_box_in .override_custom_form .um-form form .um-row div .um-field-area{
+        padding-right: unset!important;
+        padding-left: 1rem!important;
+    }
+    .single_banner_v2.one .banner_box_in .override_custom_form .um-form form .um-row div input{
+        height: 47px!important;
+    }
+    .single_banner_v2.one .banner_box_in .override_custom_form .um-form form .um-row div .um-field-area .um-iconed{
+        padding-left: unset!important;
+        padding-right: 2.3rem !important;
+    }
+    .faq_section dl dt.faq_header .minus_plus{
+        right: unset;
+        left: 0;
+    }
+
+    .team_box .team-card.three .authour_details .image{
+        margin-right: unset;
+        margin-left: 15px;
+    }
+
+    .card_post_service.one .content_box .icon_box{
+        left: unset;
+        right: 25px;
+    }
+    .list_item_box li small .icon_bx{
+        margin-right: unset;
+        margin-left: 15px;
+    }
+    .testimonial_outer.one .authour_details.image_yes .image{
+        margin-right: unset;
+        margin-left: 15px;
+    }
+    .portfolio_single_box .project_detail_image .project_details .lower p span{
+        margin-right: unset;
+        margin-left: 6px;
+    }
+    .team_single_box .about_team_member_box .member_details .lower p span{
+        margin-right: unset;
+        margin-left: 6px;
+    }
+
+    .timeline li {
+        small{
+            &:before{
+                right: -41px;
+                left: unset;
+            }
+        }
+        span.date{
+            padding-right: unset;
+            margin-right: unset;
+            margin-left: 40px;
+            padding-left: 40px;
+            &::before{
+                right: unset;
+                left: -7px;
+            }
+            &:after{
+                left: -4px;
+                right: unset;
+            }
+        }
+    }
+    // navbar
+
+    .navbar_nav {
+        > li {
+            margin-right: 3rem;
+            margin-left: unset;
+            &.dropdown{
+                padding-left: 10px;
+                padding-right: unset;
+                &:after{
+                    right: unset;
+                    left: 0;
+                }
+            }
+            &:first-child {
+                margin-right: 0px;
+            }
+        }
+        li{
+            .dropdown_menu{
+                text-align: right;
+                left: unset;
+                right: 0;
+            }
+        }
+    }
+    .navbar_nav li .dropdown_menu > li > .dropdown_menu{
+        right: 100%!important; 
+    }
+    .navbar_nav li .dropdown_menu > li.dropdown::after{
+        left: 1.75rem;
+        right: unset;
+    }
+    // breadcrumb
+
+    .breadcrumbs {
+        ul{
+            li{
+                padding-right: unset;
+                margin-right: unset;
+                padding-left: 15px;
+                margin-left: 10px;
+                &:last-child {
+                    margin-left: 0;
+                    padding-left: 0;
+                }
+                &:after{
+                    right: unset;
+                    left: -1px;
+                    transform: rotate(180deg);
+                }           
+            }
+        }
+    }
+
+    // sidebar
+    @media (min-width: 992px){
+        &.right-sidebar {
+            .all_side_bar{
+                padding-left: unset!important;
+                padding-right: 50px!important;
+            }
+        }
+    }
+
+    .widgets_grid_box ul, .widgets_grid_box ol{
+        padding-left:  0px!important;
+        padding-right: 0px!important;
+       ul.children , ul.sub-menu{
+        padding: 0px 5px 0px 0px !important;
+       }
+    }
+ 
+    // blog
+    article.tag-sticky-2 .card_blog.default_style .meta_box:before{
+        right: unset;
+        left: 0;
+    }
+    .card_blog.default_style , .card_blog.two  {
+        .content_box {
+            .meta_box {
+                padding-right: 0rem;
+                li{
+                    margin: 0px 0 0 0.75rem;
+                }
+            }
+            .rd_more i{
+                display: inline-block;
+                transform: rotate(180deg);
+                left: 6px;
+                top: 0;
+            }
+        }
+    }
+    .tags_and_share .d-flex .tags_content.left_one{
+        padding-left: 20px;
+        padding-right: unset;
+    }
+
+    //single post
+
+    .blog_single_page_header {
+        .page_header_content{
+            .authour_content_box {
+                .authour_image{
+                    margin-left: 10px;
+                    margin-right: unset;
+                }
+                .authour_content{
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    // body end
+}

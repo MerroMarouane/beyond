@@ -1,0 +1,254 @@
+// dark mode
+:root{
+    //--shadow 
+    --box-shadow-three: 0px 6px 24px rgba(0 , 0 , 0 , .05);
+}
+
+body.dark_more_enable {
+    background: #000; 
+    // start
+    h1 a, h1, h2 a, h2, h3 a, h3, h4 a, h4, h5 a, h5, h6 a, h6{
+        color: #fff;
+    }
+    .default_header{
+        background: #000;
+    }
+    .preloader-active{
+        background: #000;
+        h1{
+            color: #fff;
+        }
+    } 
+    .page_header_center{
+        background: #06080A;
+        .banner_title_inner{
+            h1{
+                color: #fff;
+            }
+        }
+    }
+    .navbar_nav li .dropdown_menu{
+        background: #06080a;
+        border-color: #121517;
+    }
+    .mobile_header .bottom_content{
+        background: #06080a;
+    }
+    .navbar_nav li .dropdown_menu > li > a{
+        color: #fff;
+    }
+    .widgets_grid_box{
+        border-color: rgba(255,255,255, .12);
+        .widget_search label{
+            color: #fff; 
+        }
+    }
+    .wp-block-calendar table th {
+        background: #080808;
+    }
+    .wp-block-latest-posts__list a{
+        color: #fff; 
+    }
+    .wp-block-tag-cloud a, .tagcloud a{
+        background: rgba(255,255,255, .12);
+    }
+    select{
+        background: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctitle%3Edown_key%3C/title%3E%3Cpath d='M18.5303 9.46967C18.8232 9.76256 18.8232 10.2374 18.5303 10.5303L12.5303 16.5303C12.2374 16.8232 11.7626 16.8232 11.4697 16.5303L5.46967 10.5303C5.17678 10.2374 5.17678 9.76256 5.46967 9.46967C5.76256 9.17678 6.23744 9.17678 6.53033 9.46967L12 14.9393L17.4697 9.46967C17.7626 9.17678 18.2374 9.17678 18.5303 9.46967Z' fill='%23ffffff'/%3E%3C/svg%3E%0A") no-repeat right 0.75rem center/18px 20px!important;
+    }
+    .wp-calendar-table tbody, .wp-calendar-table td, .wp-calendar-table tfoot, .wp-calendar-table th, .wp-calendar-table thead, .wp-calendar-table tr{
+        color: #fff;
+    }
+    tbody, td, tfoot, th, thead, tr{
+        border-color: rgba(255,255,255, .12);
+    }
+    .wp-block-table.is-style-stripes tbody tr:nth-child(odd){
+        background: #ffffff08;
+    }
+    .widgets_grid_box .widget_rss cite{
+        color: #fff;
+    }
+
+    .wp-block-table.is-style-stripes{
+        border-color: rgba(255,255,255, .12);
+    }
+
+    input, input[type="text"], input[type="email"], input[type="number"], textarea, select, .wp-block-search__input, .um .um-form input[type=text], .um .um-form input[type=search], .um .um-form input[type=tel], .um .um-form input[type=number], .um .um-form input[type=password], .um .um-form textarea{
+        background: #ffffff08;
+        background-color: #ffffff08!important;
+        border-color: rgba(255,255,255, .12);
+        box-shadow: unset;
+    }
+    .simple_search input[type="search"]{
+        border-color: rgba(255,255,255, .12);
+    }
+    input[type="submit"], button[type="submit"], body .um-button{
+        background-color: var(--primary-color-two)!important;
+        border-color: var(--primary-color-two)!important;
+        height: 50px;
+    }
+    .wp-block-pullquote{
+        border-color:rgba(255,255,255, .12);
+    }
+    pre{
+        background: #06080a;
+    }
+    strong{
+        color: #fff;
+    }
+    .contact_form_shortcode form label{
+        color: #fff;
+    }
+     .wp-block-group__inner-container h2, .widget-title{
+        color: #fff; 
+    }
+    .widgets_grid_box ul > li a, .widgets_grid_box ol > li a{
+        color: var(--text-color-dark);
+    }
+    .card_blog.default_style {
+        .content_box {
+            h2 {
+                a{
+                    color: #fff;
+                }
+            }
+            .meta_box {
+                li {
+                    a{
+                        background:rgba(255,255,255, 0.09);
+                    }
+                }
+            }
+        }
+    }
+    .blog_single_page_header {
+        .page_header_content{
+            .meta_box {
+                li {
+                    a{
+                        background:rgba(255,255,255, 0.09);
+                    }
+                }
+            }
+            .authour_content_box {
+                .authour_content{
+                    h4{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .breadcrumbs{
+        ul {
+            li {
+                a{
+                    color: #fff;
+                }
+                &:after{
+                    color:rgba(255,255,255, 0.4);
+                }
+            }
+        }
+    }
+    .blog_single_details_outer {
+        .single_content_lower{
+            border-color: rgba(255,255,255, .12);
+        }
+    }
+    .sec_comments{
+        .comment_box {
+            .title_commnt {
+                h2{
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec_comments .comment_box .comment-list li.comment .comments-outer .comment-text, .sec_comments .comment_box .comment-list li.trackback .comments-outer .comment-text, .sec_comments .comment_box .comment-list li.pingback .comments-outer .comment-text{
+        border-color: rgba(255,255,255, .12);
+    }
+    .sec_comments .comment_box .comment-list li.comment .comment-text h3.name, .sec_comments .comment_box .comment-list li.trackback .comment-text h3.name, .sec_comments .comment_box .comment-list li.pingback .comment-text h3.name{
+        color: #fff;
+    }
+    .sec_comments .comment-respond .blog-details__content-title{
+        color: #fff;
+    }
+    .tags_and_share .d-flex .tags_content .title, .tags_and_share .d-flex .share_content .title{
+        color: #fff;
+    }
+    .pagination li a, .pagination li span, .page-numbers li a, .page-numbers li span{
+        background: rgba(255,255,255, .12);
+        color: #fff;
+    }
+    .pagination li.active a, .page-numbers li.active a {
+        background: var(--primary-color-two);
+        color: #fff;
+    }
+    .has-large-font-size{
+        color: #fff;
+    }
+    .wp-block-quote, blockquote{
+        border-color:rgba(255,255,255, .12);
+    }
+    .wp-block-quote p, blockquote p{
+        color: #fff;
+    }
+    .mobile_header_panel .mobile_content, .mobile_header_panel_two .mobile_content{
+        background: #06080A;
+        .navbar-close{
+            svg{
+                path{
+                    stroke: #fff;
+                }
+            }
+        }
+    }
+    .mobile_header_panel .mobile-menu ul > li .menu-expand, .mobile_header_panel_two .mobile-menu ul > li .menu-expand{
+        color: #fff;
+    }
+    .mobile_header_panel .mobile-menu ul > li > a, .mobile_header_panel_two .mobile-menu ul > li > a{
+        color: #fff;
+    }
+    .mobile_header_panel .group_button, .mobile_header_panel_two .group_button , 
+    .mobile_header_panel .get_in_touch, .mobile_header_panel_two .get_in_touch{
+        border-color:rgba(255,255,255, .12);
+    }
+    .mobile_header_panel .mt-auto a, .mobile_header_panel_two .mt-auto a{
+       background:rgba(255,255,255, .12);
+       border-color:rgba(255,255,255, .12);
+        color: #fff;
+    }
+    .mobile_header_panel .group_button a, .mobile_header_panel_two .group_button a{
+        color: #fff;
+        border-color:rgba(255,255,255, .12);
+    }
+    .team_single_box .about_team_member_box{
+        border-color:rgba(255,255,255, .12);
+    }
+    .team_single_box .about_team_member_box .member_details .upper .title a , .team_single_box .about_team_member_box .member_details .lower p span{
+        color: #fff;
+    }
+    .simple_search form button[type="submit"]{
+        background: transparent!important;
+        background-color: transparent!important;
+    }
+    .style-switcher{
+        background: #06080A;
+    }
+    .sidemenu_area .side_menu_content{
+        background: #06080A;
+        border: 1px solid rgba(255,255,255, .12);
+    }
+
+    .um-form a.um-link-alt{
+        color: #fff;
+    }
+    
+    .footer.footer_default{
+        border-color: rgba(255,255,255, .12);
+    }
+    // end
+}

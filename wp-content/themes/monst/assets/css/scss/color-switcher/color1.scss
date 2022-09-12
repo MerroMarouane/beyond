@@ -1,0 +1,37 @@
+:root{
+    --primary-color-one: red;
+    --primary-color-two: red;
+    --primary-color-three: red;
+    --primary-color-four: red;
+    --menu-active-color: red;
+
+    --preloader-background-color: #222;
+    // background color
+    --background-color-one:#ff00000a;
+    --background-color-two:#ff00000a;
+    --background-color-three:#ff00000a; 
+    
+}
+.primarg_bg_color{
+    background: var(--primary-color-one)!important;
+    background-color: var(--primary-color-one)!important;
+}
+.color_default{
+    color: var(--primary-color-one)!important;
+}
+.theme_bg_color{
+    background: var(--background-color-one);
+    background-color: var(--background-color-one);
+}
+.theme_bg_color_two{
+    background: var(--background-color-two);
+    background-color: var(--background-color-two);
+}
+.theme_bg_color_three{
+    background: var(--background-color-three);
+    background-color: var(--background-color-three);
+}
+.primarg_border_color{
+    border-color: var(--primary-color-one)!important;
+}
+ 

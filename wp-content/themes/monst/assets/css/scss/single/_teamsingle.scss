@@ -1,0 +1,134 @@
+// team single
+
+.team_single_box {
+    position: relative;
+    padding: 0px;
+    .about_team_member_box {
+        position: relative;
+        border: 1px solid var(--border-color-one);
+        padding: 8px;
+        border-radius: 5px;
+        .team_member_img{
+            img{
+                border-radius: 5px;
+            }
+        }
+        .member_details{
+            position: relative;
+            padding: 25px 25px 20px 25px;
+            .share_team{
+                position: relative;
+                margin-top: -80px;
+                margin-bottom: 40px;
+                -webkit-transition:all 0.5s ease;
+                transition:all 0.5s ease;
+                -moz-transition:all 0.5s ease;
+                -ms-transition:all 0.5s ease;
+                -o-transition:all 0.5s ease;
+                a.share{
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50px;
+                    display: block;
+                    background: #fff;
+                    color: var(--primary-color-one);
+                    z-index: 2;
+                    
+                }
+                ul{
+                    position: absolute;
+                    margin: 0px;
+                    padding: 0px;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    visibility: hidden;
+                    -webkit-transition:all 0.5s ease;
+                    transition:all 0.5s ease;
+                    -moz-transition:all 0.5s ease;
+                    -ms-transition:all 0.5s ease;
+                    -o-transition:all 0.5s ease;
+                    z-index: 1;
+                    li{
+                        display: inline-block;
+                        a{
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            display: block;
+                            border-radius: 50px;
+                            background: #fff;
+                            color: var(--primary-color-one);
+                            &:hover{
+                                background: var(--primary-color-two);
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                &:hover{
+                    ul{
+                        opacity: 1;
+                        visibility: visible;
+                        left: 45px;
+                    }
+                    a.share{
+                        background: var(--primary-color-two);
+                        color: #fff;
+                    }
+                }
+            }
+            .upper{
+                position: relative;
+                margin-bottom: 20px;
+                .title{
+                    line-height: normal;
+                    margin: 0px;
+                    a{
+                        display: block;
+                        font-family: var(--monst-family-one);
+                        font-size: 26px;
+                        line-height: 46px;
+                        font-weight: 700;
+                        color: var(--heading-dark);
+                        margin-bottom: 0px;
+                    }
+                }
+                h6{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: var(--monst-family-two);
+                    line-height: 30px;
+                    color: var(--text-color-dark);
+                    margin: 0px;
+                }
+            }
+            .lower{
+                position: relative;
+                p{
+                   margin: 0px 0px 5px;
+                   span{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: var(--monst-family-one);
+                    color: var(--text-color-dark-two);
+                    line-height: 28px;    display: inline-block;
+                    padding-right: 6px;
+                   }
+                    a{
+                        font-weight: 400;
+                        font-family: var(--primary-color-two);
+                        font-size: 15px;
+                        display: inline-block;
+                        color: var(--text-color-dark);
+                      
+                    }
+                }
+            }
+           
+        }
+    }
+}

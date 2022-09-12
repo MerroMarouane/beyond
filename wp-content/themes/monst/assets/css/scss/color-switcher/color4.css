@@ -1,0 +1,40 @@
+:root {
+  --primary-color-one: #40c4d8;
+  --primary-color-two:  #40c4d8;
+  --primary-color-three: #40c4d8;
+  --primary-color-four:  #40c4d8;
+  --menu-active-color: #40c4d8;
+  --preloader-background-color: #40c4d8;
+  --background-color-one:#0785861c;
+  --background-color-two:#0785861c;
+  --background-color-three:#07858640;
+}
+
+.primarg_bg_color {
+  background: var(--primary-color-one) !important;
+  background-color: var(--primary-color-one) !important;
+}
+
+.color_default {
+  color: var(--primary-color-one) !important;
+}
+
+.theme_bg_color {
+  background: var(--background-color-one);
+  background-color: var(--background-color-one);
+}
+
+.theme_bg_color_two {
+  background: var(--background-color-two);
+  background-color: var(--background-color-two);
+}
+
+.theme_bg_color_three {
+  background: var(--background-color-three);
+  background-color: var(--background-color-three);
+}
+
+.primarg_border_color {
+  border-color: var(--primary-color-one) !important;
+}
+/*# sourceMappingURL=color4.css.map */

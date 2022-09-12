@@ -1,0 +1,86 @@
+.rwmb-field.rwmb-image_select-wrapper.custom-header .rwmb-image-select {
+    width: 48%;
+    height: 100%;
+}
+
+.rwmb-field.rwmb-image_select-wrapper.custom-footer .rwmb-image-select {
+    width: 494px;
+    height: 130px;
+}
+
+.edit-post-layout .interface-interface-skeleton__content {
+    background: #f4f4f4;
+}
+
+.rwmb-default .postbox-header {
+    background: #f4f4f4;
+}
+
+.rwmb-default .postbox-header h2,
+.rwmb-default .postbox-header .order-higher-indicator,
+.rwmb-default .postbox-header .order-lower-indicator,
+.rwmb-default .postbox-header .toggle-indicator {
+    color: #222!important;
+}
+.redux-banner-content-container .redux-banner-button-container{
+    display: none!important;
+}
+.redux-container .form-table>tbody>tr>th {
+    width: 18%;
+}
+
+.redux-container-image_select ul.redux-image-select li {
+    padding-right: 4px;
+}
+
+.redux-container-image_select .redux-image-select img,
+.redux-container-image_select .redux-image-select-selected img,
+.redux-container-image_select .redux-image-select .tiles,
+.redux-container-image_select .redux-image-select-selected .tiles {
+    border-width: 2px;
+}
+.edit-post-layout__metaboxes{
+    padding-bottom: 50px!important;
+    padding-top: 50px!important;
+    position: relative;
+    background: #fff!important;
+}
+
+.rwmb-heading-wrapper{
+    display: block!important;
+    width: 100%!important;
+}
+
+
+.vc_element-icon.icon-creote-svg {
+    background-image: url(../images/vc-logo.png)!important;
+    height: 32px!important;
+    width: 32px!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+}
+.monst_admin_boxed {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.about_monst_panel , .about_steelthemes  {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.about_monst_panel h1 , .about_steelthemes h1{
+    color: #fff;
+}
+
+.monst_admin_boxed .bg_n_image img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}

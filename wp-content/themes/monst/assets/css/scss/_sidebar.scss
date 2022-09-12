@@ -1,0 +1,183 @@
+//sidebar
+.widgets_grid_box{
+    position: relative;
+    margin-bottom: 30px;
+    padding: 35px 40px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color-one);
+    ul , ol{
+        padding-left: 0px;
+        margin-bottom: 0px!important;
+       & > li{
+           position: relative;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+            list-style: none;
+            line-height: normal;
+            font-size: 15px;
+            line-height: 28px;
+            font-weight: 400;
+            font-family: var(--monst-family-two);
+            & > ul{
+                & > li{
+                    padding-top: 8px;
+                    margin-top: 8px;
+                    padding-bottom: 0px;
+                    margin-bottom: 0px;
+                }
+            } 
+            a{
+                display: block;
+                margin: 0px;
+                padding: 0px;       
+                font-size: 16px;
+                color: var(--text-color-dark-two);
+                -webkit-transition: 0.5s ease-in-out;
+                transition: 0.5s ease-in-out;
+                -ms-transition: 0.5s ease-in-out;
+                -moz-transition: 0.5s ease-in-out;
+                -o-transition: 0.5s ease-in-out;
+                line-height: 28px;
+                font-weight: 400;
+                font-family: var(--monst-family-two);
+                &:hover{
+                    color: var(--primary-color-two);
+                }
+            }
+            &:last-child{
+                padding-bottom: 0px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    
+    
+    .widget_calendar{
+        table{
+            margin-bottom: 10px;
+        }
+    }
+    .wp-block-latest-comments{
+        li{
+            .wp-block-latest-comments__comment-meta{
+                line-height: 28px;
+            }
+            a {
+                display: inline-block;
+            }
+        }
+    }
+  .widget_recent_comments{
+        li{
+            line-height: 28px;
+            span{
+                display: inline-block;
+            }
+        }
+    }
+    .widget_rss{
+        a{
+            margin-bottom: 8px;
+        }
+        .rss-date{
+            display: block;
+            margin-bottom: 10px;   
+            font-size: 14px;    
+         }
+         .rssSummary{
+             line-height: 28px;
+             font-size: 15px;
+             margin-bottom: 10px;
+         }
+         cite{
+             font-size: 16px;
+             font-weight: 600;
+             color: var(--text-color-dark-two);
+             margin: 0px!important;
+         }
+    }
+    .widget_text{
+        p{
+            font-size: 15px;
+        }
+    }
+    .wp-caption.alignnone{
+        margin: 0px 0px 15px;
+    }
+}
+.wp-block-group__inner-container   h2 , .widget-title{
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 600;
+        color: var(--heading-dark);
+        font-family: var(--monst-family-one);
+        margin-bottom: 20px;
+}
+
+
+
+//tagcloud
+.wp-block-tag-cloud ,
+.tagcloud{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    a{
+        padding: 0.25rem 0.75rem;
+        color: var(--primary-color-three);
+        font-size: .75rem!important;
+        font-weight: 600;
+        background-color: var(--background-color-seven);
+        border-radius: 0.75rem;
+        line-height: normal;
+        display: inline-block;
+        margin: 0px 5px 5px 0px;
+        -webkit-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+        -ms-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+        &:hover{
+            color: #fff;
+            background-color: var(--primary-color-two);
+        }
+    }
+}
+
+//simple_search
+
+.simple_search{
+    position: relative;
+    form{
+        position: relative;
+        input{
+            margin: 0px;
+            font-size: .75rem;
+            font-weight: 600;
+            font-family: var(--monst-family-two);
+            color: var(--heading-dark);
+            background: #fff;
+            border-radius: .25rem;
+            padding: 1.25rem;
+            box-shadow: var(--box-shadow-three)
+        }
+        button[type="submit"]{
+            position: absolute;
+            width: 40px!important;
+            height: 40px!important;
+            font-size: 15px;
+            color: var(--primary-color-two)!important;
+            background: transparent!important;
+            background-color: transparent!important;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 0.375rem;
+            top: 0;  border: 0px!important;
+            right: 5px;
+            padding: 0px;
+            min-height: 40px;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+}

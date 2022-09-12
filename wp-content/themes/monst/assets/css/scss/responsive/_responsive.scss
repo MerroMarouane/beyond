@@ -1,0 +1,119 @@
+// Responsive
+// 1200px
+@media(max-width:1200px){
+
+    // start
+    .newsteller.style_one .item_scubscribe .input_group{
+        max-width: unset;
+    }
+    // end
+
+}
+
+// 992px 
+
+@media(max-width:992px){
+
+    // start
+        br{
+            display: none;
+        }
+        .single_banner_v2.one .float_image_left{
+            position: relative;
+            margin-top: -1rem;
+            float: left;
+            width: 50%;
+            img{
+                width: auto;
+                height: auto;
+            }
+        }
+        .single_banner_v2.one .float_image_right{
+            position: relative;
+            float: right;    
+            margin-top: -1rem;
+            width: 50%;
+            img{
+                width: auto;
+                height: auto;
+            }
+        }
+
+        .single_banner_v2.one .banner_box_in .override_custom_form .um-form form{
+            display: block;
+            .um-row{
+                display: block;
+            }
+        }
+        .single_banner_v2.one .banner_box_in .override_custom_form .um-form form .um-row div .um-field-area{
+            padding-right: unset!important;
+            padding-bottom: 1rem!important;
+        }
+      
+    .newsteller.style_one .item_scubscribe .input_group {
+        max-width: 100%!important;
+        form .mc4wp-form-fields{
+            display: block;
+           input[type="email"]{
+                min-width: 100%!important;
+                width: 100%!important;
+           }
+           input[type="submit"]{
+               margin: 20px 0px 0px!important;
+           }
+        }
+    }
+    .team_box .team-card.one .image img{
+        height: 20rem;
+    }
+    // end
+
+}
+
+// 768px 
+
+@media(max-width:768px){
+
+    // start
+    br{
+        display: none;
+    }
+    .single_banner.one .banner_box_in .content_box h2 , .section_title h1 , .price_style.one h3{
+        font-size: 2rem;
+        line-height: 3rem; 
+    }
+    .team_box .team-card.one .image img{
+        height: 22rem;
+    }
+    .timeline li{
+        display: block;
+        small{
+            display: block;
+            &::before{
+                display: none;
+            }
+        }
+        span.date{
+            margin: 0px 0px 20px 0px!important;
+            display: inline-block;
+            padding: 0 0 0 0!important;
+            &::before , &::after{
+                display: none;
+            }
+        }
+    }
+    // end
+
+}
+
+// 500px 
+
+@media(max-width:500px){
+
+    // start
+    .team_box .team-card.one .image img{
+        height: 22rem;
+    }
+    // end
+
+}

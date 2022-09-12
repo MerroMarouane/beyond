@@ -1,0 +1,22 @@
+// ultimate css
+.um-profile.um .um-name a{
+    color: var(--heading-dark)!important;
+    font-family: var(--monst-family-one);
+}
+
+.um-profile-nav{
+    background:var(--primary-color-two)!important;
+}
+.um-header{
+    border-color: var(--border-color-one)!important;
+}
+
+.um .um-field-group-head, .picker__box, .picker__nav--prev:hover, .picker__nav--next:hover, .um .um-members-pagi span.current, .um .um-members-pagi span.current:hover, .um .um-profile-nav-item.active a, .um .um-profile-nav-item.active a:hover, .upload, .um-modal-header, .um-modal-btn, .um-modal-btn.disabled, .um-modal-btn.disabled:hover, div.uimob800 .um-account-side li a.current, div.uimob800 .um-account-side li a.current:hover{
+    background: var(--primary-color-three)!important;
+}
+
+.um-9.um{
+    padding: 5px;
+    background: #fff;
+    border-radius: .25rem;
+}

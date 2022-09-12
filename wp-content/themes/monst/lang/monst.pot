@@ -1,0 +1,1721 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Monst\n"
+"POT-Creation-Date: 2022-04-14 10:18+0530\n"
+"PO-Revision-Date: 2022-03-22 17:06+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_html__;esc_attr_e;esc_html_e;"
+"esc_html_x;esc_html_x;esc_attr;esc_html;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:27
+msgid "404"
+msgstr ""
+
+#: 404.php:34 includes/common/lib/breadcrumbs.php:236
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:34
+msgid "Something went wrong!"
+msgstr ""
+
+#: 404.php:36
+msgid "Sorry, but we are unable to open this page."
+msgstr ""
+
+#: 404.php:41 searchform.php:13 template-parts/headers/header-content.php:16
+msgid "Search..."
+msgstr ""
+
+#: 404.php:43 searchform.php:13 template-parts/headers/header-content.php:18
+msgid "Search"
+msgstr ""
+
+#: 404.php:50
+msgid "Back to home"
+msgstr ""
+
+#: comments.php:27
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:28 includes/common/functions/meta.php:34
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:29 includes/common/functions/meta.php:35
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:30 includes/common/functions/meta.php:36
+msgid "Comments are Closed"
+msgstr ""
+
+#: comments.php:36 comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41 comments.php:72
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:75
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:95
+msgid "Name *"
+msgstr ""
+
+#: comments.php:96
+msgid "Email *"
+msgstr ""
+
+#: comments.php:97
+msgid "Website (Optional)"
+msgstr ""
+
+#: comments.php:104
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:107
+msgid "Comment"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:334
+#: includes/options/pluginarrays.php:82
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:335
+#: includes/options/pluginarrays.php:83
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:337
+#: includes/options/pluginarrays.php:84
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:340
+#: includes/options/pluginarrays.php:85
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:392
+#: includes/options/pluginarrays.php:96
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:393
+#: includes/class-tgm-plugin-activation.php:912
+#: includes/class-tgm-plugin-activation.php:2618
+#: includes/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:394
+#: includes/class-tgm-plugin-activation.php:3244
+#: includes/options/pluginarrays.php:97
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1019
+#: includes/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1206
+#: includes/class-tgm-plugin-activation.php:3033
+msgid "and"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/common/functions/header-source.php:61
+msgid "Search Results"
+msgstr ""
+
+#: includes/common/functions/header-source.php:64
+msgid "Page Not Found"
+msgstr ""
+
+#: includes/common/functions/header-source.php:76
+msgid "The Latest Posts"
+msgstr ""
+
+#: includes/common/functions/layout.php:84
+#: includes/common/functions/layout.php:94
+#: includes/common/functions/layout.php:124
+#: includes/common/functions/layout.php:134
+msgid "bg_image"
+msgstr ""
+
+#: includes/common/functions/layout.php:209
+#: includes/common/functions/layout.php:247
+msgid "no_column"
+msgstr ""
+
+#: includes/common/functions/layout.php:212
+msgid "col-lg-8 col-md-12 col-sm-12 col-xs-12"
+msgstr ""
+
+#: includes/common/functions/layout.php:224
+#: includes/common/functions/layout.php:235
+msgid "col-lg-12 no_sidebar"
+msgstr ""
+
+#: includes/common/functions/meta.php:33
+msgid "Post a Comment"
+msgstr ""
+
+#: includes/common/functions/meta.php:49
+msgid "Less than a minute ago"
+msgstr ""
+
+#: includes/common/functions/meta.php:52
+msgid "About a minute ago"
+msgstr ""
+
+#: includes/common/functions/meta.php:58
+msgid "About an hour ago"
+msgstr ""
+
+#: includes/common/functions/theme-function.php:47
+msgid "Primary Menu (For Sticky Header And Mobile Header)"
+msgstr ""
+
+#: includes/common/functions/theme-function.php:61
+msgid "Blog Sidebar"
+msgstr ""
+
+#: includes/common/functions/theme-function.php:62
+msgid "Page Sidebar"
+msgstr ""
+
+#: includes/common/functions/theme-function.php:71
+msgid "Add widgets here in order to display on pages"
+msgstr ""
+
+#: includes/common/lib/breadcrumbs.php:22
+#: includes/common/lib/breadcrumbs.php:25
+msgid "Home"
+msgstr ""
+
+#: includes/common/lib/breadcrumbs.php:33
+#: includes/common/lib/breadcrumbs.php:227
+msgid " "
+msgstr ""
+
+#: includes/common/lib/breadcrumbs.php:36
+msgid "Search results for \""
+msgstr ""
+
+#: includes/common/lib/breadcrumbs.php:36
+#: includes/common/lib/breadcrumbs.php:230
+#: includes/common/lib/breadcrumbs.php:234
+msgid "\""
+msgstr ""
+
+#: includes/common/lib/breadcrumbs.php:252
+msgid "Page"
+msgstr ""
+
+#: includes/custom/color-switcher.php:12
+msgid "Color Skins"
+msgstr ""
+
+#: includes/lib/functions/comments.php:46
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/lib/functions/comments.php:63
+msgid "Edit"
+msgstr ""
+
+#: includes/lib/functions/nav.php:86
+msgid "Previous Post"
+msgstr ""
+
+#: includes/lib/functions/nav.php:101
+msgid "Next Post"
+msgstr ""
+
+#: includes/options/config.php:37 includes/options/config.php:38
+msgid "Monst Options"
+msgstr ""
+
+#: includes/options/config.php:158
+msgid "Welcome to Monst Option Panel"
+msgstr ""
+
+#: includes/options/config.php:160
+msgid ""
+"This text is displayed above the options panel. It isn't required, but more "
+"info is always better! The intro_text field accepts all HTML."
+msgstr ""
+
+#: includes/options/config.php:164
+msgid ""
+"This text is displayed below the options panel. It isn't required, but more "
+"info is always better! The footer_text field accepts all HTML."
+msgstr ""
+
+#: includes/options/config.php:179
+msgid "Theme Information 1"
+msgstr ""
+
+#: includes/options/config.php:180 includes/options/config.php:186
+msgid "This is the tab content, HTML is allowed."
+msgstr ""
+
+#: includes/options/config.php:185
+msgid "Theme Information 2"
+msgstr ""
+
+#: includes/options/config.php:193
+msgid "This is the sidebar content, HTML is allowed."
+msgstr ""
+
+#: includes/options/pluginarrays.php:17
+msgid "Elementor"
+msgstr ""
+
+#: includes/options/pluginarrays.php:24
+msgid "Monst Addons"
+msgstr ""
+
+#: includes/options/pluginarrays.php:34
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/options/pluginarrays.php:42
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: includes/options/pluginarrays.php:50
+msgid "Ultimate Member"
+msgstr ""
+
+#: includes/options/pluginarrays.php:58
+msgid "One Click Demo Import"
+msgstr ""
+
+#: includes/options/pluginarrays.php:65
+msgid "Envato Market"
+msgstr ""
+
+#: includes/options/pluginarrays.php:98
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/options/theme-options/404-settings.php:9
+msgid "404 Settings"
+msgstr ""
+
+#: includes/options/theme-options/404-settings.php:21
+msgid "Padding for 404"
+msgstr ""
+
+#: includes/options/theme-options/404-settings.php:22
+msgid "Allow your users to choose the spacing or padding they want."
+msgstr ""
+
+#: includes/options/theme-options/404-settings.php:34
+msgid "404 Background"
+msgstr ""
+
+#: includes/options/theme-options/404-settings.php:35
+msgid "404 background with image, color, etc."
+msgstr ""
+
+#: includes/options/theme-options/404-settings.php:42
+msgid "404 Image"
+msgstr ""
+
+#: includes/options/theme-options/blog-settings.php:8
+msgid "Blog Settings"
+msgstr ""
+
+#: includes/options/theme-options/blog-settings.php:18
+msgid "Category Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/blog-settings.php:19
+msgid "This is used to enable and disable Category in blog single"
+msgstr ""
+
+#: includes/options/theme-options/blog-settings.php:25
+msgid "Category Enable / Disable "
+msgstr ""
+
+#: includes/options/theme-options/blog-settings.php:26
+#: includes/options/theme-options/blog-settings.php:41
+msgid "This is used to enable and disable Share in blog single"
+msgstr ""
+
+#: includes/options/theme-options/blog-settings.php:32
+msgid "Tag Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/blog-settings.php:33
+msgid "This is used to enable and disable Tags in blog single"
+msgstr ""
+
+#: includes/options/theme-options/blog-settings.php:40
+msgid "Post Navigation Enable / Disable "
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:9
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:18
+msgid "Portfolio Section"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:24
+msgid "Portfolio Breadcrumb Text"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:26
+msgid "Portfolio"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:31
+msgid "Portfolio Breadcrumb Link"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:33
+#: includes/options/theme-options/breadcrumb.php:54
+#: includes/options/theme-options/breadcrumb.php:74
+#: includes/options/theme-options/header-modal-content.php:56
+#: includes/options/theme-options/mobile-menu.php:134
+#: includes/options/theme-options/mobile-menu.php:150
+#: includes/options/theme-options/mobile-menu.php:166
+#: includes/options/theme-options/mobile-menu.php:182
+#: includes/options/theme-options/mobile-menu.php:198
+#: includes/options/theme-options/post-general-settings.php:30
+#: includes/options/theme-options/post-general-settings.php:48
+#: template-parts/content/content-single.php:38
+#: template-parts/content/content-single.php:47
+msgid "#"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:39
+#: includes/options/theme-options/post-general-settings.php:17
+msgid "Service Section"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:45
+msgid "Service Breadcrumb Text"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:47
+#: includes/options/theme-options/post-general-settings.php:24
+#: includes/options/theme-options/post-general-settings.php:42
+msgid "Service"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:52
+#: includes/options/theme-options/post-general-settings.php:29
+msgid "Service Breadcrumb Link"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:59
+msgid "Team Section"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:65
+msgid "Team Breadcrumb Text"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:67
+msgid "Team"
+msgstr ""
+
+#: includes/options/theme-options/breadcrumb.php:72
+msgid "Team Breadcrumb Link"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:8
+msgid "Theme Color Settings"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:16
+msgid "Theme Color Settings Enable"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:22
+msgid "Theme Primary Colors"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:30
+msgid "Whole Site Background Color"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:38
+msgid "Theme Color (1)"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:45
+msgid "Theme Color (2)"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:54
+msgid "Theme Background Colors"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:62
+msgid "Theme Background Color (1)"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:69
+msgid "Theme Background Color (2)"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:76
+msgid "Theme Background Color (3) "
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:85
+msgid "Theme Heading Colors"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:92
+msgid "Heading Color"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:100
+msgid "Text Colors"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:107
+msgid "Text  Color"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:114
+msgid "Text Color (Light)"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:122
+msgid "Border Colors"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:130
+msgid "Border Color"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:138
+msgid "Border Color (2)"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:146
+msgid "Border Color (3)"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:154
+msgid "Mobile Menu Colors"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:162
+msgid "Mobile Menu Color"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:170
+msgid "Mobile Menu Active Color"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:177
+msgid "Sticky Header Menu Colors"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:184
+msgid "Header Sticky Menu  Color"
+msgstr ""
+
+#: includes/options/theme-options/color-settings.php:191
+msgid "Header Sticky Menu Active Color"
+msgstr ""
+
+#: includes/options/theme-options/footer-settings.php:8
+msgid "Footer Settings"
+msgstr ""
+
+#: includes/options/theme-options/footer-settings.php:16
+msgid "Footer Custom Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/footer-settings.php:22
+msgid "Select Footer Style"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:9
+msgid "General Settings"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:17
+msgid "Preloader / Backtotop Section"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:24
+msgid "Preloader Hide  / show"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:25
+msgid "Preloader"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:33
+msgid "Preloader Image"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:39
+msgid "Monst"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:40
+msgid "Preloader Text"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:45
+msgid "Preloader Background"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:46
+msgid "Preloader background color, etc."
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:56
+msgid "Back to top Enable /Disable"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:61
+msgid "Animation Section"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:68
+msgid "Fade Anmation Effects On /Off"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:74
+msgid "Rtl Section"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:82
+msgid "RTL Enable"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:88
+msgid "Sidebar Section"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:96
+msgid "Sidebar Sticky Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:101
+msgid "Color Switcher Section"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:109
+msgid "Color Switcher  Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:115
+msgid "Dark Mode Section"
+msgstr ""
+
+#: includes/options/theme-options/general-settings.php:123
+msgid "Dark Mode  Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:9
+msgid "Modal Content Settings"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:18
+msgid "Modal Enable"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:24
+msgid "Modal Form Shortcode"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:25
+msgid "Enter Contact Form 7 Short Code here"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:26
+msgid "[contact-form-7 id=\"344\" title=\"Contact Form\"]"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:33
+#: includes/options/theme-options/mobile-menu.php:53
+msgid "Logo"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:39
+msgid "About Company"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:41
+msgid ""
+"Denounce with righteous indignation and dislike men who are beguiled\n"
+"                and demoralized by the charms pleasure moment so blinded "
+"desire that\n"
+"                they cannot foresee the pain and trouble."
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:48
+#: includes/options/theme-options/header-modal-content.php:49
+msgid "Read More"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:54
+msgid " Link (url)"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:55
+msgid "Enter the url here"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:61
+msgid "Post Enable"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:68
+msgid "Title"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:70
+msgid "Latest Projects"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:75
+msgid "Select Post To Display"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:78
+msgid "Service Post"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:79
+msgid "Project Post"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:80
+msgid "Post"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:86
+msgid "Copy Right"
+msgstr ""
+
+#: includes/options/theme-options/header-modal-content.php:88
+msgid "© 2022 monst. All Rights Reserved."
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:9
+msgid "Header Settings"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:18
+msgid "Header  Section"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:24
+msgid "Header Custom Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:30
+msgid "Select Header Style"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:39
+msgid " Header Sticky Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:47
+msgid "Sticky Logo"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:53
+msgid "Sticky Logo LInk"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:54
+#: includes/options/theme-options/header-settings.php:85
+#: includes/options/theme-options/header-settings.php:100
+#: includes/options/theme-options/mobile-menu.php:62
+#: includes/options/theme-options/mobile-menu.php:99
+#: includes/options/theme-options/mobile-menu.php:113
+msgid "https://example.com"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:62
+msgid "Sticky Logo Width"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:64
+#: includes/options/theme-options/mobile-menu.php:71
+msgid "Allow your users to choose width"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:65
+#: includes/options/theme-options/mobile-menu.php:72
+msgid "Enable or disable any piece of this field. Width, or Units."
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:77
+#: includes/options/theme-options/header-settings.php:92
+msgid "Button Text"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:79
+msgid "Login"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:84
+msgid "Button Link"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:94
+#: includes/options/theme-options/mobile-menu.php:93
+msgid "Sign Up"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:99
+msgid "Button LInk"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:107
+msgid "Choose Header Position"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:109
+msgid "Position Relative"
+msgstr ""
+
+#: includes/options/theme-options/header-settings.php:110
+msgid "Position Absolute"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:9
+msgid "Layout Settings"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:17
+msgid "Default Layouts"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:18
+#: includes/options/theme-options/layout-settings.php:42
+#: includes/options/theme-options/layout-settings.php:65
+#: includes/options/theme-options/layout-settings.php:90
+msgid "Choose your layouts Styles"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:22
+#: includes/options/theme-options/layout-settings.php:45
+#: includes/options/theme-options/layout-settings.php:69
+#: includes/options/theme-options/layout-settings.php:94
+msgid "Full Width"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:26
+#: includes/options/theme-options/layout-settings.php:49
+#: includes/options/theme-options/layout-settings.php:73
+#: includes/options/theme-options/layout-settings.php:98
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:30
+#: includes/options/theme-options/layout-settings.php:53
+#: includes/options/theme-options/layout-settings.php:77
+#: includes/options/theme-options/layout-settings.php:102
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:41
+msgid "Page Layouts"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:64
+msgid "Service Layouts"
+msgstr ""
+
+#: includes/options/theme-options/layout-settings.php:89
+msgid "Shop Layouts"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:10
+msgid "Mobile Header Settings"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:19
+msgid "Contact  Enable"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:25
+msgid "Contact Title"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:27
+msgid "Get In Touch"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:33
+msgid "Phone Number"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:35
+msgid "9806071234"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:43
+msgid "Mail Id"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:45
+msgid "sendmail@example.com"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:61
+msgid "Logo LInk"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:69
+msgid "Logo Width"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:85
+msgid "Button Enable"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:91
+msgid "Button Text One"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:98
+msgid "Button Link One"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:105
+msgid "Button Text Two"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:107
+msgid "Log In"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:112
+msgid "Button Link Two"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:119
+msgid "Share Enable (Social Media)"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:125
+msgid "Social Media Icon Text One"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:126
+#: includes/options/theme-options/mobile-menu.php:127
+msgid "fab fa-facebook"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:133
+msgid "Social Media Icon Link One"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:141
+msgid "Social Media Icon Text Two"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:142
+#: includes/options/theme-options/mobile-menu.php:143
+msgid "fab fa-twitter"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:149
+msgid "Social Media Icon Link Two"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:157
+msgid "Social Media Icon Text Three"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:158
+#: includes/options/theme-options/mobile-menu.php:159
+msgid "fab fa-skype"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:165
+msgid "Social Media Icon Link Three"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:173
+msgid "Social Media Icon Text Four"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:174
+#: includes/options/theme-options/mobile-menu.php:175
+msgid "fab fa-youtube"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:181
+msgid "Social Media Icon Link Four"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:189
+msgid "Social Media Icon Text Five"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:190
+#: includes/options/theme-options/mobile-menu.php:191
+msgid "fab fa-instagram"
+msgstr ""
+
+#: includes/options/theme-options/mobile-menu.php:197
+msgid "Social Media Icon Link Five"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:9
+msgid "Page Header Settings"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:19
+msgid "Page Header  Section"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:25
+msgid "Page Header Enable / Disable"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:32
+msgid "Pageheader Background Image"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:40
+msgid "Page Header Background Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:46
+msgid "Page Header Padding"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:47
+msgid "5rem 0px 5rem 0px"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:54
+msgid "Page Header Alignment"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:56
+msgid "Left"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:57
+msgid "Center"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:58
+msgid "Right"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:67
+msgid "Page Header style"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:73
+msgid "Page Header Title COlor"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:79
+msgid "Page Header Breadcrumb Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:85
+msgid "Page Header Breadcrumb Active Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:91
+msgid "Page Header Breadcrumb Arrow Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:98
+msgid "Page Header Categoty  Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:99
+msgid "This custom color css for Category in blog single"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:105
+msgid "Page Header Categoty Background Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:106
+msgid "This custom background color css for Category in blog single"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:112
+msgid "Page Header Date  Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:113
+msgid "This custom  color css for Date in blog single"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:120
+msgid "Page Header Authour Extra  Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:121
+msgid "This custom  color css for Authout Title in blog single"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:127
+msgid "Page Header Authour   Color"
+msgstr ""
+
+#: includes/options/theme-options/page_header_settings.php:128
+msgid "This custom  color css for Authout  in blog single"
+msgstr ""
+
+#: includes/options/theme-options/post-general-settings.php:8
+msgid "All Post General Settings"
+msgstr ""
+
+#: includes/options/theme-options/post-general-settings.php:23
+msgid "Service Breadcrumb Name"
+msgstr ""
+
+#: includes/options/theme-options/post-general-settings.php:35
+msgid "Project Section"
+msgstr ""
+
+#: includes/options/theme-options/post-general-settings.php:41
+msgid "Project Breadcrumb Name"
+msgstr ""
+
+#: includes/options/theme-options/post-general-settings.php:47
+msgid "Project Breadcrumb Link"
+msgstr ""
+
+#: includes/options/theme-options/side-menu-settings.php:10
+msgid "Side Menu Settings"
+msgstr ""
+
+#: includes/options/theme-options/side-menu-settings.php:19
+msgid "Side Menu  Enable"
+msgstr ""
+
+#: includes/options/theme-options/side-menu-settings.php:25
+msgid "Side Menu Tooltip Text"
+msgstr ""
+
+#: includes/options/theme-options/side-menu-settings.php:26
+#: includes/options/theme-options/side-menu-settings.php:27
+msgid "Demos"
+msgstr ""
+
+#: includes/options/theme-options/side-menu-settings.php:33
+msgid "Side Menu Tooltip Width"
+msgstr ""
+
+#: includes/options/theme-options/side-menu-settings.php:34
+#: includes/options/theme-options/side-menu-settings.php:35
+msgid "90px"
+msgstr ""
+
+#: includes/options/theme-options/side-menu-settings.php:41
+msgid "Select Mega Menu Style For display in Side Menu"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:9
+msgid "Typography Settings"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:21
+msgid "Default Font Family Enable"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:23
+msgid "Enable to fontfamily to change font family"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:30
+msgid "Font Family Primary"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:52
+msgid "Font Family Secondary"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:78
+msgid "Enable H1 Custom Font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:80
+msgid "Enable to customize the theme heading h1 tag font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:88
+msgid "H1 Font Typography (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:95
+msgid "Apply options to customize the h1 heading font for the theme (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:115
+msgid "Enable H1 Custom Font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:117
+msgid "Enable to customize the theme heading h1 tag font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:124
+msgid "H1 Font Typography (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:135
+msgid "Apply options to customize the h1 heading font for the theme (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:153
+msgid "Enable H2 Custom Font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:155
+msgid "Enable to customize the theme heading h2 tag font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:163
+msgid "H2 Font Typography (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:170
+msgid "Apply options to customize the h2 heading font for the theme (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:191
+msgid "Enable H2 Custom Font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:193
+msgid "Enable to customize the theme heading h2 tag font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:200
+msgid "H2 Font Typography (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:210
+msgid "Apply options to customize the h2 heading font for the theme (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:228
+msgid "Enable H3 Custom Font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:230
+msgid "Enable to customize the theme heading h3 tag font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:237
+msgid "H3 Font Typography (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:245
+msgid "Apply options to customize the h3 heading  for the theme (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:259
+msgid "Enable H3 Custom Font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:260
+msgid "Enable to customize the theme heading h3 tag font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:266
+msgid "H3 Font Typography (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:277
+msgid "Apply options to customize the h3 heading font for the theme (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:290
+msgid "Enable H4 Custom Font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:291
+msgid "Enable to customize the theme heading h4 tag font"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:296
+msgid "H4 Font Typography"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:304
+msgid "Apply options to customize the h4 heading font for the theme"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:317
+msgid "Enable H4 Custom Font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:318
+msgid "Enable to customize the theme heading h4 tag font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:324
+msgid "H4 Font Typography (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:335
+msgid "Apply options to customize the h4 heading font for the theme (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:347
+msgid "Enable H5 Custom Font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:348
+msgid "Enable to customize the theme heading h5 tag font"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:353
+msgid "H5 Font Typography"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:361
+msgid "Apply options to customize the h5 heading font for the theme"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:374
+msgid "Enable H5 Custom Font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:375
+msgid "Enable to customize the theme heading h5 tag font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:381
+msgid "H5 Font Typography (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:392
+msgid "Apply options to customize the h5 heading font for the theme (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:409
+msgid "Enable H6 Custom Font (Desktop)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:411
+msgid "Enable to customize the theme heading h6 tag font"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:418
+msgid "H6 Font Typography"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:426
+msgid "Apply options to customize the h6 heading font for the theme"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:440
+msgid "Enable H6 Custom Font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:441
+msgid "Enable to customize the theme heading h6 tag font (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:447
+msgid "H6 Font Typography (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:458
+msgid "Apply options to customize the h6 heading font for the theme (Mobile)"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:471
+msgid "Use Body,Paragraph Custom Font"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:472
+msgid "Enable to customize the theme body,p tag font"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:477
+msgid "Body Font Typography"
+msgstr ""
+
+#: includes/options/theme-options/typography-settings.php:485
+msgid "Apply options to customize the body,paragraph font for the theme"
+msgstr ""
+
+#: template-parts/content/content-blog.php:27
+#: template-parts/content/content-search.php:7
+msgid "col-xs-12"
+msgstr ""
+
+#: template-parts/content/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content/content-none.php:16
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: template-parts/content/content-none.php:16
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content/content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content/content-page.php:15
+#: template-parts/content/content-service.php:16
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content/content-portfolio.php:40
+msgid "Client:"
+msgstr ""
+
+#: template-parts/content/content-portfolio.php:43
+msgid "Details:"
+msgstr ""
+
+#: template-parts/content/content-portfolio.php:46
+msgid "Date:"
+msgstr ""
+
+#: template-parts/content/content-portfolio.php:49
+#: template-parts/content/content-team.php:94
+msgid "Website:"
+msgstr ""
+
+#: template-parts/content/content-single.php:35
+msgid "Tags"
+msgstr ""
+
+#: template-parts/content/content-single.php:44
+msgid "Posted in"
+msgstr ""
+
+#: template-parts/content/content-team.php:85
+msgid "Email:"
+msgstr ""
+
+#: template-parts/content/content-team.php:88
+msgid "Phone:"
+msgstr ""
+
+#: template-parts/content/content-team.php:91
+msgid "Address:"
+msgstr ""
+
+#: template-parts/footer/default-footer.php:32
+msgid "© 2022 Steelthemes. All Right Reseved"
+msgstr ""
+
+#: template-parts/page-header/blog-pageheader.php:60
+#: template-parts/page-header/default-page-header.php:78
+msgid "Posted By"
+msgstr ""

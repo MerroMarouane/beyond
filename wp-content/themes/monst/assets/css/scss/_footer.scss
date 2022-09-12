@@ -1,0 +1,10 @@
+// footer
+
+.footer{
+    &.footer_default {
+        position: relative;
+        padding: 10px 0px;
+        border-top: 1px solid var(--border-color-one);
+       
+    }
+}

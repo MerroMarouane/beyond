@@ -1,0 +1,1252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rakon Addons\n"
+"POT-Creation-Date: 2020-04-27 12:01+0530\n"
+"PO-Revision-Date: 2020-04-27 12:03+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/shortcodes.php:1412
+msgid "View All"
+msgstr ""
+
+#: inc/shortcodes.php:3194 inc/shortcodes.php:3199
+msgid "Can not connect to Google Maps APIs"
+msgstr ""
+
+#: inc/shortcodes.php:3212
+msgid "No location found for the entered address."
+msgstr ""
+
+#: inc/shortcodes.php:3214
+msgid "Invalid request. Did you enter an address?"
+msgstr ""
+
+#: inc/shortcodes.php:3216
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+
+#: inc/shortcodes.php:3219
+msgid "Unable to contact Google API service."
+msgstr ""
+
+#: inc/visual-composer.php:146 inc/visual-composer.php:1282
+#: inc/visual-composer.php:2097 inc/visual-composer.php:2366
+#: inc/visual-composer.php:2445 inc/visual-composer.php:2911
+#: inc/visual-composer.php:3031 inc/visual-composer.php:3808
+#: inc/visual-composer.php:3950
+msgid "Title"
+msgstr ""
+
+#: inc/visual-composer.php:150 inc/visual-composer.php:331
+#: inc/visual-composer.php:464 inc/visual-composer.php:582
+#: inc/visual-composer.php:692 inc/visual-composer.php:826
+#: inc/visual-composer.php:948 inc/visual-composer.php:1126
+#: inc/visual-composer.php:1252 inc/visual-composer.php:1362
+#: inc/visual-composer.php:1705 inc/visual-composer.php:1799
+#: inc/visual-composer.php:1879 inc/visual-composer.php:2077
+#: inc/visual-composer.php:2185 inc/visual-composer.php:2346
+#: inc/visual-composer.php:2437 inc/visual-composer.php:2621
+#: inc/visual-composer.php:2709 inc/visual-composer.php:2877
+#: inc/visual-composer.php:2997 inc/visual-composer.php:3101
+#: inc/visual-composer.php:3213 inc/visual-composer.php:3345
+#: inc/visual-composer.php:3411 inc/visual-composer.php:3479
+#: inc/visual-composer.php:3583 inc/visual-composer.php:3706
+#: inc/visual-composer.php:3800 inc/visual-composer.php:3942
+#: inc/visual-composer.php:4102 inc/visual-composer.php:4165
+#: inc/visual-composer.php:4237 inc/visual-composer.php:4337
+#: inc/visual-composer.php:4525
+msgid "Lawnella"
+msgstr ""
+
+#: inc/visual-composer.php:158
+msgid "Title Main"
+msgstr ""
+
+#: inc/visual-composer.php:162 inc/visual-composer.php:186
+msgid "Enter The Title"
+msgstr ""
+
+#: inc/visual-composer.php:170
+msgid "Title Main color"
+msgstr ""
+
+#: inc/visual-composer.php:182
+msgid "Title Sub "
+msgstr ""
+
+#: inc/visual-composer.php:194
+msgid "Title Sub color"
+msgstr ""
+
+#: inc/visual-composer.php:206 inc/visual-composer.php:327
+#: inc/visual-composer.php:340 inc/visual-composer.php:1292
+#: inc/visual-composer.php:1923 inc/visual-composer.php:2109
+#: inc/visual-composer.php:2376 inc/visual-composer.php:2457
+#: inc/visual-composer.php:2921 inc/visual-composer.php:3041
+#: inc/visual-composer.php:3975
+msgid "Description"
+msgstr ""
+
+#: inc/visual-composer.php:218 inc/visual-composer.php:356
+#: inc/visual-composer.php:992 inc/visual-composer.php:2753
+msgid "Description color"
+msgstr ""
+
+#: inc/visual-composer.php:230 inc/visual-composer.php:2897
+#: inc/visual-composer.php:3017 inc/visual-composer.php:3145
+#: inc/visual-composer.php:3832 inc/visual-composer.php:3988
+msgid "Icon Class"
+msgstr ""
+
+#: inc/visual-composer.php:242
+msgid "Icon Color"
+msgstr ""
+
+#: inc/visual-composer.php:254
+msgid "Padding "
+msgstr ""
+
+#: inc/visual-composer.php:266
+msgid "Margin Bottom "
+msgstr ""
+
+#: inc/visual-composer.php:278 inc/visual-composer.php:520
+#: inc/visual-composer.php:650 inc/visual-composer.php:784
+#: inc/visual-composer.php:906 inc/visual-composer.php:1076
+#: inc/visual-composer.php:1206 inc/visual-composer.php:1678
+#: inc/visual-composer.php:2035 inc/visual-composer.php:2307
+#: inc/visual-composer.php:2400 inc/visual-composer.php:2579
+#: inc/visual-composer.php:2667 inc/visual-composer.php:2825
+#: inc/visual-composer.php:2967 inc/visual-composer.php:3627
+#: inc/visual-composer.php:3750 inc/visual-composer.php:4122
+#: inc/visual-composer.php:4281
+msgid "Style"
+msgstr ""
+
+#: inc/visual-composer.php:284 inc/visual-composer.php:526
+#: inc/visual-composer.php:656 inc/visual-composer.php:790
+#: inc/visual-composer.php:912 inc/visual-composer.php:1082
+#: inc/visual-composer.php:1212 inc/visual-composer.php:1684
+#: inc/visual-composer.php:2041 inc/visual-composer.php:2313
+#: inc/visual-composer.php:2406 inc/visual-composer.php:2585
+#: inc/visual-composer.php:2673 inc/visual-composer.php:2831
+#: inc/visual-composer.php:2973 inc/visual-composer.php:3163
+#: inc/visual-composer.php:3633 inc/visual-composer.php:3756
+#: inc/visual-composer.php:4128 inc/visual-composer.php:4287
+msgid "Style 1"
+msgstr ""
+
+#: inc/visual-composer.php:286 inc/visual-composer.php:528
+#: inc/visual-composer.php:658 inc/visual-composer.php:792
+#: inc/visual-composer.php:914 inc/visual-composer.php:1084
+#: inc/visual-composer.php:1214 inc/visual-composer.php:1686
+#: inc/visual-composer.php:2043 inc/visual-composer.php:2315
+#: inc/visual-composer.php:2587 inc/visual-composer.php:2675
+#: inc/visual-composer.php:2833 inc/visual-composer.php:2975
+#: inc/visual-composer.php:3165 inc/visual-composer.php:3635
+#: inc/visual-composer.php:3758 inc/visual-composer.php:4130
+#: inc/visual-composer.php:4289
+msgid "Style 2"
+msgstr ""
+
+#: inc/visual-composer.php:288 inc/visual-composer.php:530
+#: inc/visual-composer.php:1216 inc/visual-composer.php:2835
+#: inc/visual-composer.php:3167 inc/visual-composer.php:3637
+#: inc/visual-composer.php:3760 inc/visual-composer.php:4291
+msgid "Style 3"
+msgstr ""
+
+#: inc/visual-composer.php:298 inc/visual-composer.php:430
+msgid "Text Alignment"
+msgstr ""
+
+#: inc/visual-composer.php:304 inc/visual-composer.php:436
+#: inc/visual-composer.php:1582
+msgid "Text align inherit"
+msgstr ""
+
+#: inc/visual-composer.php:306 inc/visual-composer.php:438
+#: inc/visual-composer.php:1584
+msgid "Text align Left"
+msgstr ""
+
+#: inc/visual-composer.php:308 inc/visual-composer.php:440
+#: inc/visual-composer.php:1586
+msgid "Text align Right"
+msgstr ""
+
+#: inc/visual-composer.php:310 inc/visual-composer.php:442
+#: inc/visual-composer.php:1588
+msgid "Text align Center"
+msgstr ""
+
+#: inc/visual-composer.php:368
+msgid "Font size"
+msgstr ""
+
+#: inc/visual-composer.php:372
+msgid "16px"
+msgstr ""
+
+#: inc/visual-composer.php:380 inc/visual-composer.php:1444
+msgid "Font Weight"
+msgstr ""
+
+#: inc/visual-composer.php:384
+msgid "400"
+msgstr ""
+
+#: inc/visual-composer.php:392 inc/visual-composer.php:1492
+msgid "Line Height"
+msgstr ""
+
+#: inc/visual-composer.php:396
+msgid "26px"
+msgstr ""
+
+#: inc/visual-composer.php:404 inc/visual-composer.php:2813
+#: inc/visual-composer.php:4052
+msgid "Padding"
+msgstr ""
+
+#: inc/visual-composer.php:408 inc/visual-composer.php:420
+#: inc/visual-composer.php:4068
+msgid "0px 0px 0px 0px"
+msgstr ""
+
+#: inc/visual-composer.php:416 inc/visual-composer.php:1064
+#: inc/visual-composer.php:3309 inc/visual-composer.php:4064
+msgid "Margin"
+msgstr ""
+
+#: inc/visual-composer.php:460
+msgid "Image Box"
+msgstr ""
+
+#: inc/visual-composer.php:472 inc/visual-composer.php:700
+#: inc/visual-composer.php:2629 inc/visual-composer.php:2641
+#: inc/visual-composer.php:4110
+msgid "Images"
+msgstr ""
+
+#: inc/visual-composer.php:484
+msgid "Extra Images"
+msgstr ""
+
+#: inc/visual-composer.php:496 inc/visual-composer.php:602
+#: inc/visual-composer.php:736 inc/visual-composer.php:956
+#: inc/visual-composer.php:1134
+msgid " Title "
+msgstr ""
+
+#: inc/visual-composer.php:508 inc/visual-composer.php:626
+#: inc/visual-composer.php:748 inc/visual-composer.php:980
+#: inc/visual-composer.php:1146
+msgid " Description "
+msgstr ""
+
+#: inc/visual-composer.php:532 inc/visual-composer.php:1088
+#: inc/visual-composer.php:1218 inc/visual-composer.php:2837
+#: inc/visual-composer.php:3169 inc/visual-composer.php:3639
+#: inc/visual-composer.php:3762 inc/visual-composer.php:4293
+msgid "Style 4"
+msgstr ""
+
+#: inc/visual-composer.php:534 inc/visual-composer.php:1090
+#: inc/visual-composer.php:3641 inc/visual-composer.php:3764
+msgid "Style 5"
+msgstr ""
+
+#: inc/visual-composer.php:536 inc/visual-composer.php:1092
+#: inc/visual-composer.php:3766
+msgid "Style 6"
+msgstr ""
+
+#: inc/visual-composer.php:546 inc/visual-composer.php:638
+#: inc/visual-composer.php:858
+msgid " Icon Class "
+msgstr ""
+
+#: inc/visual-composer.php:558 inc/visual-composer.php:668
+#: inc/visual-composer.php:924 inc/visual-composer.php:1102
+#: inc/visual-composer.php:1228 inc/visual-composer.php:1338
+msgid " Extra Classes "
+msgstr ""
+
+#: inc/visual-composer.php:578
+msgid "Company Rating"
+msgstr ""
+
+#: inc/visual-composer.php:590
+msgid "Bckground Images"
+msgstr ""
+
+#: inc/visual-composer.php:614
+msgid "About Quote "
+msgstr ""
+
+#: inc/visual-composer.php:688
+msgid "Offer Box"
+msgstr ""
+
+#: inc/visual-composer.php:712 inc/visual-composer.php:3868
+#: inc/visual-composer.php:4028
+msgid "Background Images"
+msgstr ""
+
+#: inc/visual-composer.php:724
+msgid "Box Background color"
+msgstr ""
+
+#: inc/visual-composer.php:760
+msgid " Button Text "
+msgstr ""
+
+#: inc/visual-composer.php:772
+msgid " Button Link "
+msgstr ""
+
+#: inc/visual-composer.php:802
+msgid " Extra Class"
+msgstr ""
+
+#: inc/visual-composer.php:822
+msgid "Video Box"
+msgstr ""
+
+#: inc/visual-composer.php:834
+msgid "Images One"
+msgstr ""
+
+#: inc/visual-composer.php:846
+msgid "Image two"
+msgstr ""
+
+#: inc/visual-composer.php:870
+msgid " Video Title "
+msgstr ""
+
+#: inc/visual-composer.php:882
+msgid " Video Link "
+msgstr ""
+
+#: inc/visual-composer.php:894
+msgid " Video Icon "
+msgstr ""
+
+#: inc/visual-composer.php:944
+msgid "Icon Box"
+msgstr ""
+
+#: inc/visual-composer.php:968 inc/visual-composer.php:2729
+msgid "Title color"
+msgstr ""
+
+#: inc/visual-composer.php:1004 inc/visual-composer.php:1170
+msgid " icon Class "
+msgstr ""
+
+#: inc/visual-composer.php:1016 inc/visual-composer.php:1763
+#: inc/visual-composer.php:2777
+msgid "Icon color"
+msgstr ""
+
+#: inc/visual-composer.php:1028
+msgid "Link Text"
+msgstr ""
+
+#: inc/visual-composer.php:1040 inc/visual-composer.php:2145
+#: inc/visual-composer.php:2931 inc/visual-composer.php:3051
+msgid "Link"
+msgstr ""
+
+#: inc/visual-composer.php:1052
+msgid "Link Text color"
+msgstr ""
+
+#: inc/visual-composer.php:1086
+msgid "Style 3 No Icon"
+msgstr ""
+
+#: inc/visual-composer.php:1122
+msgid "Contact Box"
+msgstr ""
+
+#: inc/visual-composer.php:1158
+msgid " Contact Number "
+msgstr ""
+
+#: inc/visual-composer.php:1182
+msgid " icon Class Two "
+msgstr ""
+
+#: inc/visual-composer.php:1194 inc/visual-composer.php:1306
+msgid " Background Images"
+msgstr ""
+
+#: inc/visual-composer.php:1248
+msgid "Contact Box Two"
+msgstr ""
+
+#: inc/visual-composer.php:1260
+msgid "Contac us"
+msgstr ""
+
+#: inc/visual-composer.php:1272
+msgid "Icon"
+msgstr ""
+
+#: inc/visual-composer.php:1318
+msgid "Column"
+msgstr ""
+
+#: inc/visual-composer.php:1324 inc/visual-composer.php:3191
+msgid "One Column"
+msgstr ""
+
+#: inc/visual-composer.php:1326 inc/visual-composer.php:3189
+msgid "Two Column"
+msgstr ""
+
+#: inc/visual-composer.php:1328 inc/visual-composer.php:3187
+msgid "Three Column"
+msgstr ""
+
+#: inc/visual-composer.php:1358
+msgid " Theme Button "
+msgstr ""
+
+#: inc/visual-composer.php:1370 inc/visual-composer.php:1831
+msgid "Button Text "
+msgstr ""
+
+#: inc/visual-composer.php:1382
+msgid "Text color"
+msgstr ""
+
+#: inc/visual-composer.php:1394 inc/visual-composer.php:1843
+msgid "Button Link "
+msgstr ""
+
+#: inc/visual-composer.php:1398 inc/visual-composer.php:1847
+#: inc/visual-composer.php:1975 inc/visual-composer.php:1999
+#: inc/visual-composer.php:2023
+msgid "#"
+msgstr ""
+
+#: inc/visual-composer.php:1406
+msgid "Display"
+msgstr ""
+
+#: inc/visual-composer.php:1412
+msgid "Block"
+msgstr ""
+
+#: inc/visual-composer.php:1414
+msgid "Inline Block"
+msgstr ""
+
+#: inc/visual-composer.php:1424
+msgid "Text Transform"
+msgstr ""
+
+#: inc/visual-composer.php:1430 inc/visual-composer.php:1450
+#: inc/visual-composer.php:3291
+msgid "Inherit"
+msgstr ""
+
+#: inc/visual-composer.php:1432
+msgid "lower Case"
+msgstr ""
+
+#: inc/visual-composer.php:1434
+msgid "Upper Case "
+msgstr ""
+
+#: inc/visual-composer.php:1452
+msgid "Normal"
+msgstr ""
+
+#: inc/visual-composer.php:1454
+msgid "500"
+msgstr ""
+
+#: inc/visual-composer.php:1456
+msgid "600"
+msgstr ""
+
+#: inc/visual-composer.php:1458
+msgid "700"
+msgstr ""
+
+#: inc/visual-composer.php:1468
+msgid "Width"
+msgstr ""
+
+#: inc/visual-composer.php:1480
+msgid "Height"
+msgstr ""
+
+#: inc/visual-composer.php:1504
+msgid "Background color"
+msgstr ""
+
+#: inc/visual-composer.php:1516
+msgid "Border Size "
+msgstr ""
+
+#: inc/visual-composer.php:1522 inc/visual-composer.php:1624
+msgid "0"
+msgstr ""
+
+#: inc/visual-composer.php:1524 inc/visual-composer.php:1626
+msgid "1"
+msgstr ""
+
+#: inc/visual-composer.php:1526 inc/visual-composer.php:1628
+msgid "2"
+msgstr ""
+
+#: inc/visual-composer.php:1528 inc/visual-composer.php:1630
+msgid "3"
+msgstr ""
+
+#: inc/visual-composer.php:1530 inc/visual-composer.php:1632
+msgid "4"
+msgstr ""
+
+#: inc/visual-composer.php:1532 inc/visual-composer.php:1634
+msgid "5"
+msgstr ""
+
+#: inc/visual-composer.php:1542
+msgid "Border Type "
+msgstr ""
+
+#: inc/visual-composer.php:1548 inc/visual-composer.php:1604
+msgid "None"
+msgstr ""
+
+#: inc/visual-composer.php:1550
+msgid "Solid"
+msgstr ""
+
+#: inc/visual-composer.php:1552
+msgid "Dashed"
+msgstr ""
+
+#: inc/visual-composer.php:1554
+msgid "Dotted"
+msgstr ""
+
+#: inc/visual-composer.php:1564
+msgid "Border color"
+msgstr ""
+
+#: inc/visual-composer.php:1576
+msgid "Text Alignment "
+msgstr ""
+
+#: inc/visual-composer.php:1598
+msgid "Float"
+msgstr ""
+
+#: inc/visual-composer.php:1606 inc/visual-composer.php:3293
+msgid "Left"
+msgstr ""
+
+#: inc/visual-composer.php:1608 inc/visual-composer.php:3295
+msgid "Right"
+msgstr ""
+
+#: inc/visual-composer.php:1618
+msgid "Border Radius "
+msgstr ""
+
+#: inc/visual-composer.php:1636
+msgid "10"
+msgstr ""
+
+#: inc/visual-composer.php:1638
+msgid "20"
+msgstr ""
+
+#: inc/visual-composer.php:1640
+msgid "30"
+msgstr ""
+
+#: inc/visual-composer.php:1642
+msgid "40"
+msgstr ""
+
+#: inc/visual-composer.php:1644
+msgid "50"
+msgstr ""
+
+#: inc/visual-composer.php:1654 inc/visual-composer.php:1775
+#: inc/visual-composer.php:1855 inc/visual-composer.php:2053
+#: inc/visual-composer.php:2161 inc/visual-composer.php:2325
+#: inc/visual-composer.php:2416 inc/visual-composer.php:2597
+#: inc/visual-composer.php:2685
+msgid "Extra Class "
+msgstr ""
+
+#: inc/visual-composer.php:1666
+msgid "Margin  "
+msgstr ""
+
+#: inc/visual-composer.php:1701
+msgid "List Items "
+msgstr ""
+
+#: inc/visual-composer.php:1713
+msgid "List"
+msgstr ""
+
+#: inc/visual-composer.php:1725 inc/visual-composer.php:2565
+msgid "List Items"
+msgstr ""
+
+#: inc/visual-composer.php:1739 inc/visual-composer.php:1819
+msgid "Icon Classes"
+msgstr ""
+
+#: inc/visual-composer.php:1751
+msgid "Item color"
+msgstr ""
+
+#: inc/visual-composer.php:1795
+msgid "Opinion Contact"
+msgstr ""
+
+#: inc/visual-composer.php:1807 inc/visual-composer.php:2717
+msgid "Title "
+msgstr ""
+
+#: inc/visual-composer.php:1875
+msgid "Our Team "
+msgstr ""
+
+#: inc/visual-composer.php:1887
+msgid "Our Team"
+msgstr ""
+
+#: inc/visual-composer.php:1899
+msgid "Team Member Name"
+msgstr ""
+
+#: inc/visual-composer.php:1911
+msgid "Job Details"
+msgstr ""
+
+#: inc/visual-composer.php:1935
+msgid "Team member Image "
+msgstr ""
+
+#: inc/visual-composer.php:1947
+msgid "Contact Number "
+msgstr ""
+
+#: inc/visual-composer.php:1959
+msgid "Facbook Icon"
+msgstr ""
+
+#: inc/visual-composer.php:1963
+msgid "fa fa-facebook"
+msgstr ""
+
+#: inc/visual-composer.php:1971
+msgid "Facbook link"
+msgstr ""
+
+#: inc/visual-composer.php:1983
+msgid "Twitter Icon"
+msgstr ""
+
+#: inc/visual-composer.php:1987
+msgid "fa fa-twitter"
+msgstr ""
+
+#: inc/visual-composer.php:1995
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/visual-composer.php:2007
+msgid "Skype Icon"
+msgstr ""
+
+#: inc/visual-composer.php:2011
+msgid "fa fa-skype"
+msgstr ""
+
+#: inc/visual-composer.php:2019
+msgid "Skype link"
+msgstr ""
+
+#: inc/visual-composer.php:2073
+msgid "Our Process "
+msgstr ""
+
+#: inc/visual-composer.php:2085
+msgid "Our Process"
+msgstr ""
+
+#: inc/visual-composer.php:2121
+msgid "Step Number"
+msgstr ""
+
+#: inc/visual-composer.php:2133 inc/visual-composer.php:2271
+msgid "Image"
+msgstr ""
+
+#: inc/visual-composer.php:2181 inc/visual-composer.php:2193
+#: inc/visual-composer.php:2354
+msgid "Tabs"
+msgstr ""
+
+#: inc/visual-composer.php:2205
+msgid "Tab Title"
+msgstr ""
+
+#: inc/visual-composer.php:2215
+msgid "Tab Icon"
+msgstr ""
+
+#: inc/visual-composer.php:2225 inc/visual-composer.php:2251
+#: inc/visual-composer.php:2386
+msgid "Tab Id"
+msgstr ""
+
+#: inc/visual-composer.php:2239
+msgid "Tab Content"
+msgstr ""
+
+#: inc/visual-composer.php:2261
+msgid "Enter Title"
+msgstr ""
+
+#: inc/visual-composer.php:2283
+msgid "Sub Title"
+msgstr ""
+
+#: inc/visual-composer.php:2293
+msgid "Description One"
+msgstr ""
+
+#: inc/visual-composer.php:2342
+msgid "Faqs"
+msgstr ""
+
+#: inc/visual-composer.php:2433
+msgid "Price  Plans"
+msgstr ""
+
+#: inc/visual-composer.php:2469
+msgid "Price "
+msgstr ""
+
+#: inc/visual-composer.php:2481
+msgid "Price Symbol"
+msgstr ""
+
+#: inc/visual-composer.php:2493
+msgid "Plans For (month/yearly/Lifetime) "
+msgstr ""
+
+#: inc/visual-composer.php:2505
+msgid "Button Text"
+msgstr ""
+
+#: inc/visual-composer.php:2517
+msgid "Button Link"
+msgstr ""
+
+#: inc/visual-composer.php:2529
+msgid "Tags"
+msgstr ""
+
+#: inc/visual-composer.php:2541
+msgid "Add Active For center Price Plans"
+msgstr ""
+
+#: inc/visual-composer.php:2553
+msgid "Plan List"
+msgstr ""
+
+#: inc/visual-composer.php:2617
+msgid "Client Logo"
+msgstr ""
+
+#: inc/visual-composer.php:2653
+msgid "Tool Tip Name"
+msgstr ""
+
+#: inc/visual-composer.php:2705
+msgid "Counter"
+msgstr ""
+
+#: inc/visual-composer.php:2741
+msgid "Description "
+msgstr ""
+
+#: inc/visual-composer.php:2765
+msgid "Enter The Class Name Of Icon "
+msgstr ""
+
+#: inc/visual-composer.php:2789
+msgid "Data Value"
+msgstr ""
+
+#: inc/visual-composer.php:2801
+msgid "Value color"
+msgstr ""
+
+#: inc/visual-composer.php:2847
+msgid "Counter Type"
+msgstr ""
+
+#: inc/visual-composer.php:2853
+msgid "With Symbol"
+msgstr ""
+
+#: inc/visual-composer.php:2855
+msgid "without Symbol"
+msgstr ""
+
+#: inc/visual-composer.php:2873
+msgid "Feature"
+msgstr ""
+
+#: inc/visual-composer.php:2885 inc/visual-composer.php:3005
+#: inc/visual-composer.php:4403 inc/visual-composer.php:4591
+msgid "Address Infomation"
+msgstr ""
+
+#: inc/visual-composer.php:2903 inc/visual-composer.php:3023
+msgid "Enter class name of icon"
+msgstr ""
+
+#: inc/visual-composer.php:2941
+msgid "Box count"
+msgstr ""
+
+#: inc/visual-composer.php:2955 inc/visual-composer.php:3133
+#: inc/visual-composer.php:3233 inc/visual-composer.php:3365
+#: inc/visual-composer.php:3443 inc/visual-composer.php:3523
+#: inc/visual-composer.php:3603 inc/visual-composer.php:3726
+#: inc/visual-composer.php:3908 inc/visual-composer.php:4040
+#: inc/visual-composer.php:4269
+msgid "Overlay color"
+msgstr ""
+
+#: inc/visual-composer.php:2993
+msgid "Feature Box"
+msgstr ""
+
+#: inc/visual-composer.php:3065
+msgid "Enter The Simple Text"
+msgstr ""
+
+#: inc/visual-composer.php:3077
+msgid "Enter The Btn Text"
+msgstr ""
+
+#: inc/visual-composer.php:3081
+msgid "Read More"
+msgstr ""
+
+#: inc/visual-composer.php:3097
+msgid " News"
+msgstr ""
+
+#: inc/visual-composer.php:3109 inc/visual-composer.php:3221
+#: inc/visual-composer.php:3353 inc/visual-composer.php:3419
+#: inc/visual-composer.php:3511 inc/visual-composer.php:3591
+#: inc/visual-composer.php:3714 inc/visual-composer.php:4245
+msgid "Number of Content Columns"
+msgstr ""
+
+#: inc/visual-composer.php:3121 inc/visual-composer.php:3559
+#: inc/visual-composer.php:3673 inc/visual-composer.php:3776
+msgid "Read More Text or Btn"
+msgstr ""
+
+#: inc/visual-composer.php:3125
+msgid "Enter Your Text"
+msgstr ""
+
+#: inc/visual-composer.php:3157 inc/visual-composer.php:3173
+msgid "News Style"
+msgstr ""
+
+#: inc/visual-composer.php:3181
+msgid "News Column"
+msgstr ""
+
+#: inc/visual-composer.php:3209
+msgid "Project  Filter"
+msgstr ""
+
+#: inc/visual-composer.php:3245 inc/visual-composer.php:3257
+#: inc/visual-composer.php:3377 inc/visual-composer.php:3391
+msgid "Project Style"
+msgstr ""
+
+#: inc/visual-composer.php:3251
+msgid "Two Column Grid"
+msgstr ""
+
+#: inc/visual-composer.php:3253
+msgid "Three Column Grid"
+msgstr ""
+
+#: inc/visual-composer.php:3265 inc/visual-composer.php:3277
+msgid "Filter Style"
+msgstr ""
+
+#: inc/visual-composer.php:3271
+msgid "Dark"
+msgstr ""
+
+#: inc/visual-composer.php:3273
+msgid "Light"
+msgstr ""
+
+#: inc/visual-composer.php:3285 inc/visual-composer.php:3301
+msgid "Filter Alignment"
+msgstr ""
+
+#: inc/visual-composer.php:3297
+msgid "Center"
+msgstr ""
+
+#: inc/visual-composer.php:3321
+msgid "Add Extra Class"
+msgstr ""
+
+#: inc/visual-composer.php:3341
+msgid "Project  manasory"
+msgstr ""
+
+#: inc/visual-composer.php:3383
+msgid "Two Column Manasory"
+msgstr ""
+
+#: inc/visual-composer.php:3385
+msgid "Three Column Manasory"
+msgstr ""
+
+#: inc/visual-composer.php:3387
+msgid "Simple Gallery"
+msgstr ""
+
+#: inc/visual-composer.php:3407
+msgid "Project  Carousel"
+msgstr ""
+
+#: inc/visual-composer.php:3431
+msgid "Category"
+msgstr ""
+
+#: inc/visual-composer.php:3455 inc/visual-composer.php:3920
+#: inc/visual-composer.php:4078 inc/visual-composer.php:4140
+#: inc/visual-composer.php:4213
+msgid "Extra Classes"
+msgstr ""
+
+#: inc/visual-composer.php:3475
+msgid "Service Tab"
+msgstr ""
+
+#: inc/visual-composer.php:3487
+msgid "Tab Title one"
+msgstr ""
+
+#: inc/visual-composer.php:3491
+msgid "Enter The Tab Title One"
+msgstr ""
+
+#: inc/visual-composer.php:3499
+msgid "Tab Title Two"
+msgstr ""
+
+#: inc/visual-composer.php:3503
+msgid "Enter The Tab Title Two"
+msgstr ""
+
+#: inc/visual-composer.php:3535
+msgid "Category For Tab One"
+msgstr ""
+
+#: inc/visual-composer.php:3547
+msgid "Category For Tab Two"
+msgstr ""
+
+#: inc/visual-composer.php:3563 inc/visual-composer.php:3677
+#: inc/visual-composer.php:3780
+msgid "Enter your Text"
+msgstr ""
+
+#: inc/visual-composer.php:3579
+msgid "Service Carousel all"
+msgstr ""
+
+#: inc/visual-composer.php:3615 inc/visual-composer.php:3738
+msgid "Enter The Category Name "
+msgstr ""
+
+#: inc/visual-composer.php:3651 inc/visual-composer.php:4303
+msgid "Item To Display"
+msgstr ""
+
+#: inc/visual-composer.php:3657 inc/visual-composer.php:4309
+msgid "One Item"
+msgstr ""
+
+#: inc/visual-composer.php:3659 inc/visual-composer.php:4311
+msgid "Two Item"
+msgstr ""
+
+#: inc/visual-composer.php:3661 inc/visual-composer.php:4313
+msgid "Three Item"
+msgstr ""
+
+#: inc/visual-composer.php:3663 inc/visual-composer.php:4315
+msgid "Four Item"
+msgstr ""
+
+#: inc/visual-composer.php:3685
+msgid "Extra Class"
+msgstr ""
+
+#: inc/visual-composer.php:3702
+msgid "Service Grid all"
+msgstr ""
+
+#: inc/visual-composer.php:3796
+msgid "Service Box"
+msgstr ""
+
+#: inc/visual-composer.php:3820 inc/visual-composer.php:3962
+msgid "Title Link"
+msgstr ""
+
+#: inc/visual-composer.php:3844 inc/visual-composer.php:4002
+msgid "Button text"
+msgstr ""
+
+#: inc/visual-composer.php:3856 inc/visual-composer.php:4016
+msgid "Button link"
+msgstr ""
+
+#: inc/visual-composer.php:3880
+msgid "overlay List Items"
+msgstr ""
+
+#: inc/visual-composer.php:3892
+msgid "List Item"
+msgstr ""
+
+#: inc/visual-composer.php:3938
+msgid "Service Box Type Two"
+msgstr ""
+
+#: inc/visual-composer.php:4056
+msgid "80px 80px 80px 80px"
+msgstr ""
+
+#: inc/visual-composer.php:4098
+msgid "Image Carousel"
+msgstr ""
+
+#: inc/visual-composer.php:4161
+msgid "Gallery Facts"
+msgstr ""
+
+#: inc/visual-composer.php:4173
+msgid "Galler Facts"
+msgstr ""
+
+#: inc/visual-composer.php:4185
+msgid "Project Before"
+msgstr ""
+
+#: inc/visual-composer.php:4197
+msgid "Projects After"
+msgstr ""
+
+#: inc/visual-composer.php:4233
+msgid " Testimonial"
+msgstr ""
+
+#: inc/visual-composer.php:4257
+msgid "Enter Category"
+msgstr ""
+
+#: inc/visual-composer.php:4333
+msgid "Google Map"
+msgstr ""
+
+#: inc/visual-composer.php:4345 inc/visual-composer.php:4533
+msgid "Api Key"
+msgstr ""
+
+#: inc/visual-composer.php:4351 inc/visual-composer.php:4539
+#, php-format
+msgid "Please go to <a href=\"%s\">Google Maps APIs</a> to get a key"
+msgstr ""
+
+#: inc/visual-composer.php:4359 inc/visual-composer.php:4547
+msgid "Marker"
+msgstr ""
+
+#: inc/visual-composer.php:4365 inc/visual-composer.php:4553
+msgid "Select an image from media library"
+msgstr ""
+
+#: inc/visual-composer.php:4373 inc/visual-composer.php:4561
+msgid "Map Color"
+msgstr ""
+
+#: inc/visual-composer.php:4379 inc/visual-composer.php:4567
+msgid "Select color for map"
+msgstr ""
+
+#: inc/visual-composer.php:4381 inc/visual-composer.php:4395
+#: inc/visual-composer.php:4569 inc/visual-composer.php:4583
+msgid "Map Colors"
+msgstr ""
+
+#: inc/visual-composer.php:4389 inc/visual-composer.php:4577
+msgid "Road - HighWay Colors"
+msgstr ""
+
+#: inc/visual-composer.php:4415 inc/visual-composer.php:4603
+msgid "Lat"
+msgstr ""
+
+#: inc/visual-composer.php:4427 inc/visual-composer.php:4615
+msgid "Lng"
+msgstr ""
+
+#: inc/visual-composer.php:4439 inc/visual-composer.php:4627
+msgid "Address Details"
+msgstr ""
+
+#: inc/visual-composer.php:4453 inc/visual-composer.php:4641
+msgid "Width(px)"
+msgstr ""
+
+#: inc/visual-composer.php:4465 inc/visual-composer.php:4653
+msgid "Height(px)"
+msgstr ""
+
+#: inc/visual-composer.php:4477 inc/visual-composer.php:4665
+msgid "Zoom"
+msgstr ""
+
+#: inc/visual-composer.php:4489
+msgid " Extra Class Name "
+msgstr ""
+
+#: inc/visual-composer.php:4501 inc/visual-composer.php:4725
+msgid "Extra class name"
+msgstr ""
+
+#: inc/visual-composer.php:4505 inc/visual-composer.php:4729
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file . "
+msgstr ""
+
+#: inc/visual-composer.php:4521
+msgid "Google map With Address Box"
+msgstr ""
+
+#: inc/visual-composer.php:4677
+msgid "Adddress Box Title "
+msgstr ""
+
+#: inc/visual-composer.php:4689
+msgid " Address "
+msgstr ""
+
+#: inc/visual-composer.php:4701
+msgid " Email "
+msgstr ""
+
+#: inc/visual-composer.php:4713
+msgid " Phone "
+msgstr ""
+
+#: inc/widgets/gallery.php:23
+msgid "Your most Project gallery."
+msgstr ""
+
+#: inc/widgets/gallery.php:26 inc/widgets/gallery.php:42
+msgid "Project gallery"
+msgstr ""
+
+#: inc/widgets/gallery.php:126 inc/widgets/recent-post.php:135
+#: inc/widgets/service-post.php:350 inc/widgets/testimonial-widgets.php:146
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/gallery.php:129 inc/widgets/recent-post.php:138
+#: inc/widgets/service-post.php:359 inc/widgets/testimonial-widgets.php:149
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/recent-post.php:23
+msgid "Your most recent Posts."
+msgstr ""
+
+#: inc/widgets/recent-post.php:26 inc/widgets/recent-post.php:42
+#: inc/widgets/testimonial-widgets.php:42
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent-post.php:142 inc/widgets/testimonial-widgets.php:153
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widgets/service-post.php:67
+msgid "Your most Service Posts."
+msgstr ""
+
+#: inc/widgets/service-post.php:76
+msgid "Service Posts"
+msgstr ""
+
+#: inc/widgets/service_category.php:26
+msgid "lawnella - Services Category"
+msgstr ""
+
+#: inc/widgets/service_category.php:29
+msgid "Advanced services category widget."
+msgstr ""
+
+#: inc/widgets/testimonial-widgets.php:23
+msgid "Your most recent Testimonials."
+msgstr ""
+
+#: inc/widgets/testimonial-widgets.php:26
+msgid "Recent Testimonials"
+msgstr ""
+
+#: inc/widgets/testimonial-widgets.php:87
+msgid "(no title)"
+msgstr ""

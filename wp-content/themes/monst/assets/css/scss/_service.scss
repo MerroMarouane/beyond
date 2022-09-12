@@ -1,0 +1,84 @@
+//service
+
+.card_post_service{
+    position: relative;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    margin-bottom: 30px;
+  &.one{
+    padding: 2rem;
+    border: 1px solid var(--border-color-one);
+    background: #fff;
+    border-radius: .25rem;
+    .content_box{
+        position: relative;
+        margin-bottom: 40px;
+        .title{
+            margin: 0px;
+            a{
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                color: var(--heading-dark);
+                display: block;
+                margin-bottom: 8px;
+            }
+        }
+
+        .icon_box{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: var(--primary-color-one);
+            text-align: center;
+            line-height: 60px;
+            border-radius: 60px;
+            z-index: 1;
+            bottom: -70px;
+            left: 25px;
+            -webkit-transition: 0.5s ease-in-out;
+            transition: 0.5s ease-in-out;
+            -ms-transition: 0.5s ease-in-out;
+            -moz-transition: 0.5s ease-in-out;
+            -o-transition: 0.5s ease-in-out;
+            span{
+                color: #fff;
+                font-size: 26px;
+                  -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+            }
+            img{
+                width: 30px;
+                margin: auto;
+            }
+        }
+        
+    }
+    .image{
+        position: relative;
+        overflow: hidden;
+        border-radius: .25rem;
+        box-shadow: var(--box-shadow-three);
+        img{
+            height: 220px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    &:hover{
+        transform: translateY(-5px);
+        .content_box{
+            .icon_box{
+                background: var(--primary-color-two);
+            }
+        }
+    }
+  }
+}
